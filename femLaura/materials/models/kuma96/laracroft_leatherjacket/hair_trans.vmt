@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/kuma96/laracroft_leatherjacket/textures/hair_d"
+	$bumpmap "models/kuma96/laracroft_leatherjacket/textures/hair_ns"
+	
+	$alphatest 1
+	$allowalphatocoverage 1
+	$nocull 1
+	
+	$phong 1
+	$phongexponent .5
+	$phongboost 5
+	$phongfresnelranges "[1 2 3]"
+	$phongwarptexture "models/kuma96/common/hair_pw1"
+	
+	$nodecal 1
+}
