@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+    "$basetexture"         "models/mark2580/resident2/Moira_Prisoner/pl2300_04hair_BM"
+    "$bumpmap"             "models/mark2580/resident2/Moira_Prisoner/pl2300_04hair_NM"
+
+        "$nocull"              "1"
+        //"$translucent"         "1"
+        "$alphatest"            "1"
+	"$alphatestreference" "0.5"
+        "$normalmapalphaenvmapmask"    "1"
+
+        "$detail"             "models/mark2580/resident2/Moira_Prisoner/pl2300_04hair_MM"
+	"$detailscale"        "1"
+	"$detailblendfactor"  ".4"
+	"$detailblendmode"    "0"
+}

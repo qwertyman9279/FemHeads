@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+    "$basetexture"         "models/mark2580/resident2/Moira_Prisoner/pl2300_05eyelash_BM"
+
+        "$nocull"              "1"
+        "$translucent"         "1"
+}
