@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/kuma96/laracroft_leatherjacket/textures/eyebrows_d"
+	$bumpmap "models/kuma96/laracroft_leatherjacket/textures/eyebrows_n"
+	
+	$alphatest 1
+	$allowalphatocoverage 1
+	
+	$nodecal 1
+}

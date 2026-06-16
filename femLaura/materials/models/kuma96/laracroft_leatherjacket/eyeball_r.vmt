@@ -1,0 +1,13 @@
+"EyeRefract"
+{
+	$iris "models/kuma96/laracroft_leatherjacket/textures/eye-diffuse"
+	$corneatexture "engine/eye-cornea"
+	$ambientoccltexture "engine/eyeball_r_ambient"
+	$envmap "engine/eye-reflection-cubemap-"
+	$eyeballradius .63268
+	$corneabumpstrength 1.25
+	$glossiness 1.0
+	$halflambert 1
+	$nodecal 1
+	$spheretexkillcombo 0
+}

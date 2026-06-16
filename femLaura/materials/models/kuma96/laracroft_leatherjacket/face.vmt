@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/kuma96/laracroft_leatherjacket/textures/face_d"
+	$bumpmap "models/kuma96/laracroft_leatherjacket/textures/face_n"
+	$color2 "[.9 .9 .9]"
+	
+	$phong 1
+	$phongexponent 2
+	$phongboost .75
+	$phongfresnelranges "[.05 .5 1]"
+	
+	$lightwarptexture "models/chell/skin_warp"
+	$nodecal 1
+}
