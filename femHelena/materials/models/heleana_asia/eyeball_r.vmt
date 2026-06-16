@@ -1,0 +1,20 @@
+EyeRefract
+{
+$Iris "models/Heleana_Asia/eyeball"
+"$bumpmap" 			"models/Heleana_Asia/eyeball_BUMP"
+$AmbientOcclTexture "models/Heleana_Asia/eye_ao"
+$Envmap "models/Heleana_Asia/eye-reflection-cubemap-" 
+"$CorneaTexture"      "models/Heleana_Asia/eye-cornea"  
+$EyeballRadius ".5" 
+// $AmbientOcclColor "[.4 .3 .27]" 
+$Dilation ".6" 
+ "$Glossiness" "1"	
+$ParallaxStrength "0.25" 
+$CorneaBumpStrength ".5" 
+$halflambert 1
+$nodecal 1
+$ambientocclusion 1
+
+$RaytraceSphere 1 
+$SphereTexkillCombo 0 
+}

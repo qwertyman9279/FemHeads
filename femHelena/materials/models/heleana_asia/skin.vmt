@@ -1,0 +1,38 @@
+vertexlitgeneric
+{
+$baseTexture "models/Heleana_Asia/Skin"
+$bumpmap "models/Heleana_Asia/Skin_BUMP"
+$phong 1
+$phongboost ".5"
+$phongexponent 12
+$phongtint "[1.73 1.33 1.17]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+$lightwarptexture "models/Heleana_Asia/head_warp"
+
+
+"$color2" "[1.73 1.33 1.17]" 
+
+vertexlitgeneric_dx8
+{
+$envmaptint "[.05 .03 .01]"
+$envmap env_cubemap
+	$envmapmask "models/Heleana_Asia/Skin_SPEC"
+}
+vertexlitgeneric_HDR_dx8
+{
+$envmaptint "[.22 .12 .07]"
+$envmap env_cubemap
+	$envmapmask "models/Heleana_Asia/Skin_SPEC"
+}
+//$halflambert 1
+//$phong 0
+"GPU>=2?//$phong" 1
+	}
+
+
+
+

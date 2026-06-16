@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  		"models/Heleana_Asia/earpiece"
+	"$bumpmap"     			"models/Heleana_Asia/earpiece_BUMP"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$normalmapalphaphongmask" 	"1"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel"		"1"
+	"$envmapFresnelMinMaxExp"	"[0 5 .4]"
+
+	"$phong"     			"1"
+	"$phongexponent" 		"64"
+	"$phongboost"   		"1"
+	"$phongfresnelranges"       	"[.83 .83 1]"
+
+
+}
