@@ -1,0 +1,56 @@
+"VertexlitGeneric"	
+{
+	"$basetexture" 		"models/Heleana_Asia/eyelash"
+	"$bumpmap" 			"models/Heleana_Asia/eyelash_BUMP"
+
+	"$ambientocclusion" "1"
+	"$alphatest" "1"
+	$allowdiffusemodulation 0
+	$allowalphatocoverage 1
+	//"$translucent" "1"
+	"$nocull" "1"
+
+	//"$phong" "1"
+	$phongexponent 10
+	"$phongboost"	"3"
+
+	"$lightwarptexture" "models/Heleana_Asia/Hair_ao"
+	$halflambert 1
+
+	"$envmaptint" "[0.78 0.59 0.56]" 
+	"$phongwarptexture" "models/Heleana_Asia/phongwarp_hair"
+	//$halflambert 1
+
+
+
+
+	"$phongtint"		"[.8 .7 .7]"
+
+	"$phongalbedotint" 1
+	
+	//"$rimlight" "1" 
+	"$rimlightexponent" "30" 
+	"$rimlightboost" "6" 
+	"$rimmask" 1
+	
+	"$alphatestreference"	"0.50"
+
+vertexlitgeneric_dx8
+{
+$envmaptint "[.05 .03 .01]"
+$envmap env_cubemap
+	$envmapmask "models/Heleana_Asia/hair_SPEC"
+}
+vertexlitgeneric_HDR_dx8
+{
+$envmaptint "[.22 .12 .07]"
+$envmap env_cubemap
+	$envmapmask "models/Heleana_Asia/hair_SPEC"
+}
+//$halflambert 1
+//$phong 0
+"GPU>=2?//$phong" 1
+	}
+
+
+	
