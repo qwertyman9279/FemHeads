@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\gonzo\femalenavy\fblack\fang_hair"
+	$bumpmap "models\gonzo\femalenavy\fblack\fang_hair_normal"
+	$ambientocclusion 0
+	$alphatest 1
+	$alphatestreference 0.8
+	$nocull 1
+	
+	$phong 1
+	$phongboost	1
+	$phongexponent 0.5
+	$phongtint "[0.33 0.33 0.28]"
+	$phongfresnelranges	"[0.3 0.2 0.35]"
+	$phongwarptexture "models\gonzo\femalenavy\fblack\phongwarp_hair"
+}

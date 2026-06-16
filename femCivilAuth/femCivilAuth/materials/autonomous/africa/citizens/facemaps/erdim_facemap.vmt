@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	$baseTexture 				"models\sectorialdistrict\citizens\facemaps\erdim_facemap"
+    "$bumpmap"     				"models\sectorialdistrict\citizens\facemaps\erdim_facemap_normal"
+    	 "$phong" 					"1"
+	"$phongexponent"		"16"
+	"$phongtint"			"[1 .65 .55]"
+	$phongexponenttexture	"models\sectorialdistrict\citizens\facemaps\erdim_exp"
+	$phongfresnelranges	"[ .2 .3 1 ]"
+    "$phongboost" 				"0.07"	
+    "$surfaceprop" 			"flesh"	
+	"$detail"			"models\sectorialdistrict\citizens\facemaps\detail_skin"
+	$detailscale 7
+	$detailblendfactor 3
+	$detailblendmode 0
+	"$color2" "{255.00 233.94 229.73}"
+
+
+	"$blendtintbybasealpha" 	"1"
+
+	Proxies
+	{
+		AutonomousFaceLegacy
+		{
+			face "erdim"
+		}
+	}
+}

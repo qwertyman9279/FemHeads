@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"autonomous/africa/citizens/hair_jackson1"
+	"$halflambert" 				"1"
+	"$translucent" 				"1"
+
+	//"$alphatest"			"1"
+	"$nocull" 				"1"	
+}

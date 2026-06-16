@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"				"autonomous/africa/citizens/facemaps/jackson_facemap1"
+	"$halflambert" 	"1"
+}

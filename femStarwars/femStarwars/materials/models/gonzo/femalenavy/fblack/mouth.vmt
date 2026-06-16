@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gonzo\femalenavy\fblack\mouth"
+	"$halflambert" 1
+	"$nocull" 1
+}

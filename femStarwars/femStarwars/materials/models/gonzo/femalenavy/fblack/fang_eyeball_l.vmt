@@ -1,0 +1,21 @@
+"EyeRefract"
+{
+	"$Iris"               "models\gonzo\femalenavy\fblack\eye-iris-green"
+	"$AmbientOcclTexture" "models\gonzo\femalenavy\fblack\survivor_eye_ao"
+	"$CorneaTexture"      "engine\eye-cornea"          		            	
+	"$Envmap"             "models\gonzo\femalenavy\fblack\eye-reflection-cubemap-"   
+	
+	"$EyeballRadius" "0.5"				// Default 0.5
+	"$AmbientOcclColor" "[.7 .7 .7]"	// Default 0.33, 0.33, 0.33
+	"$Dilation" "0.5"					// Default 0.5
+	"$ParallaxStrength" "0.25"          // Default 0.25
+	"$CorneaBumpStrength" "1.0"			// Default 1.0
+	"$AmbientOcclusion" "1"
+
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+	// These effects are only available in ps.2.0b and later
+	"$RaytraceSphere" "1"				// Default 1 - Enables raytracing in the pixel shader to make the eyeball look round
+	"$SphereTexkillCombo" "0"			// Default 1 - Enables killing pixels that don't ray-intersect the sphere
+}
