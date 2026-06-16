@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/mj_tew2_kidman/hair"
+	"$bumpmap" "models/mj_tew2_kidman/hair_n"
+	"$translucent" "1"
+	
+	
+                 $halflambert "0"
+$nocull 0
+"$phong" "0" 
+                 "$phongexponent" "10"
+                 "$phongboost" "0.2"
+                 "$phongfresnelranges" "[.83 .83 .83 ]"
+               
+}
+
